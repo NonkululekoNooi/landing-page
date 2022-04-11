@@ -1,0 +1,65 @@
+body{
+box-sizing: border-box;
+padding:auto;
+margin: auto;
+margin-top: 80px;
+justify-content: center;
+background-image: url(e91da99ea326fd4a70b005295f9cb779--meaningful-words-computer-programming.jpg);
+}
+
+#header{
+background-color:#e8e8e4;
+border: double 15px;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+flex-direction: column;
+font-size: large;
+
+
+}
+
+
+h1{
+    
+    text-align: center;
+    text-decoration:underline;
+    
+}
+
+#header-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.nav-link{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+.nav1-link{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+ @media screen and (max-width: 700px){
+    
+     .nav-link{
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      
+    }
+    .nav1-link{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+   
+} 
