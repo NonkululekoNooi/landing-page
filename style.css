@@ -3,13 +3,14 @@ box-sizing: border-box;
 padding:auto;
 margin: auto;
 margin-top: 80px;
+border: double 15px;
 justify-content: center;
-background-image: url(e91da99ea326fd4a70b005295f9cb779--meaningful-words-computer-programming.jpg);
+background-image: url(images.png);
 }
 
 #header{
-background-color:#e8e8e4;
-border: double 15px;
+
+
 width: 90%;
 margin-left: auto;
 margin-right: auto;
@@ -21,9 +22,10 @@ font-size: large;
 
 
 h1{
-    
     text-align: center;
     text-decoration:underline;
+    color: blue;
+   
     
 }
 
@@ -31,21 +33,39 @@ h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 20px;
     
 }
 .nav-link{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
+  padding-left: 330px;
+ 
   width: 50%;
-  
+  color: rgb(241, 63, 63);
+  font-size: x-large;
 }
 .nav1-link{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  
+  padding-left: 330px;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: baseline;
+  width: 50%;
+  color: rgb(241, 63, 63);
+  font-size: x-large;
+  
 }
+.footer{
+  zoom: 1;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-style: italic;
+  font-size: xx-large;
+  color: white;
+  text-align: center;
+}
+
  @media screen and (max-width: 700px){
     
      .nav-link{
@@ -53,13 +73,24 @@ h1{
       margin-left: auto;
       margin-right: auto;
       width: 50%;
+    
       
     }
-    .nav1-link{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-   
+    #header-img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      
+  }
+    
 } 
+@media screen and (max-width: 701px){
+    
+  .nav-link{
+   padding-left: 50px;
+   
+ } 
+ .nav1-link{
+   padding-left: 120px;
+ }
+}
