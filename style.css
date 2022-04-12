@@ -56,12 +56,11 @@ h1{
 }
 .footer{
   zoom: 1;
-  position: fixed;
+  position:sticky;
   left: 0;
-  bottom: 0;
   width: 100%;
   font-style: italic;
-  font-size: xx-large;
+  font-size: medium;
   color: white;
   text-align: center;
 }
